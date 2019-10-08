@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="com/interview-prep/hour-glass"/>
+	<classpathentry kind="src" path="com/interview-prep/insert-into-sorted-double-linkedlist"/>
+	<classpathentry kind="src" path="com/interview-prep/luck-balance"/>
+	<classpathentry kind="src" path="com/interview-prep/making-candies"/>
+	<classpathentry kind="src" path="poisonous-plant"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
