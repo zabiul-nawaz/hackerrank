@@ -1,12 +1,9 @@
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
 
-public class Solution {
+public class Solution2 {
 
     // Complete the hourglassSum function below.
     static int hourglassSum(int[][] arr) {
@@ -14,12 +11,12 @@ public class Solution {
         for(int row=0; row<4; row++) {
             for(int col=0; col<4; col++) {
                 int sum = arr[row][col]   + arr[row][col+1]    + arr[row][col+2]
-                                          + arr[row+1][col+1]
-                        + arr[row+2][col] + arr[row+2][col+1]  + arr[row+2][col+2];
-                
+                        + arr[row+1][col+1]
+                                + arr[row+2][col] + arr[row+2][col+1]  + arr[row+2][col+2];
+
                 if((row == 0 && col == 0) || (sum > max_sum)) {
                     max_sum = sum;
-                }          
+                }
             }
         }
         return max_sum;

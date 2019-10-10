@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Solution2 {
+public class MakingCandles {
 
     // Complete the minimumPasses function below.
     static long minimumPasses(long m, long w, long p, long n) {
