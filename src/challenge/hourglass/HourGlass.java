@@ -1,9 +1,11 @@
+package challenge.hourglass;
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Solution2 {
+public class HourGlass {
 
     // Complete the hourglassSum function below.
     static int hourglassSum(int[][] arr) {

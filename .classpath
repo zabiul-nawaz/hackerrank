@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="poisonous-plant"/>
-	<classpathentry kind="src" path="game-of-thrones"/>
-	<classpathentry kind="src" path="making-anagrams"/>
-	<classpathentry kind="src" path="insert-into-sorted-double-linkedlist"/>
-	<classpathentry kind="src" path="making-candies"/>
-	<classpathentry kind="src" path="hour-glass"/>
-	<classpathentry kind="src" path="luck-balance"/>
-	<classpathentry kind="src" path="anagram"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

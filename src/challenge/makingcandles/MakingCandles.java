@@ -1,3 +1,5 @@
+package challenge.makingcandles;
+
 import java.io.IOException;
 import java.util.Scanner;
 

@@ -1,9 +1,10 @@
+package challenge.doublell;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Solution4 {
+public class SortedDoubleLL {
 
     static class DoublyLinkedListNode {
         public int data;

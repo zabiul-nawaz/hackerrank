@@ -1,3 +1,4 @@
+package challenge.luckbalance;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -6,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
-public class Solution5 {
+public class LuckBalance {
 
     // Complete the luckBalance function below.
     static int luckBalance(int k, int[][] contests) {
